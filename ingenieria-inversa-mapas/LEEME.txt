@@ -1,0 +1,10 @@
+Recursos extraídos de Prehistoric Tribes (THQ Wireless, J2ME 240x320).
+sprites/pi0 (27 PNG), pi9 (6), pi8 (12): extraídos de los archivos pi0/pi9/pi8 (prefijo de 2 bytes + PNG).
+sprites/l0..l3: pantallas de carga y menú. musica_sa.mid: música MIDI.
+textos_es.json: carpeta 4 del juego en UTF-8 (acentos convertidos).
+
+AÑADIDO (mapas de la partida personalizada):
+musica/cancion1..5.mid: la música (el archivo 'sa' contiene 5 canciones MIDI seguidas).
+mapas/: mapas 7 a 11 (gran lago, el paso, el bosque, carnicería, el terreno): PNG renderizado con los gráficos reales y JSON con el id de casilla de cada celda.
+decodificar_mapas.py: decodificador (sin dependencias). renderizar_mapas.py: dibuja los mapas con las tablas de pd0 y los PNG de sprites/pi0 (necesita Pillow).
+Casilla = 22x16 px. Ids 175-179: animaciones decorativas (probable); 180-231: objetos/recursos dibujados aparte (probable; salen como recuadros negros en la vista estática).

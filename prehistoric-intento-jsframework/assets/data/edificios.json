@@ -1,0 +1,26 @@
+{
+    "cabana": {
+        "texture": "cabana",
+        "width": 1,
+        "height": 1,
+        "costWood": 50,
+        "costStone": 0,
+        "health": 200
+    },
+    "armeria": {
+        "texture": "armeria",
+        "width": 2,
+        "height": 2,
+        "costWood": 120,
+        "costStone": 40,
+        "health": 350
+    },
+    "torre": {
+        "texture": "torre",
+        "width": 1,
+        "height": 1,
+        "costWood": 80,
+        "costStone": 100,
+        "health": 500
+    }
+}
